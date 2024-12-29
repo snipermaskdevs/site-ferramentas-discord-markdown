@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ferramentas Discord Markdown</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #2f3136;
+      padding: 0;
+      color: #fff;
+    }
+  
+    .container {
+      background-color: #36393f;
+      padding: 20px;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 900px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      margin: 20px auto;
+    }
+  
+    h1, h2 {
+      text-align: center;
+      color: #7289da;
+    }
+  
+    h2 {
+      margin-top: 30px;
+    }
+  
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    ul li {
+      margin: 10px 0;
+    }
+  
+    a {
+      color: #7289da;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  
+    a:hover {
+      text-decoration: underline;
+    }
+  
+    /* Estilo para links de listas */
+    ul li a {
+      font-size: 1.1em;
+      color: #fff;
+    }
+  
+    /* Estilo para a área de markdown com borda */
+    .markdown {
+      background-color: #2f3136;
+      color: white;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 20px;
+      font-family: 'Courier New', monospace;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      border: 2px solid #7289da;
+      text-align: center;
+    }
+  
+    /* Estilo para as listas */
+    ul, ol {
+      padding-left: 20px;
+    }
+  
+    /* Ajuste de tamanhos e espaçamento para listas */
+    ul li, ol li {
+      margin-bottom: 10px;
+    }
+  
+    /* Estilo para as caixas de tarefas */
+    ul li input[type="checkbox"] {
+      margin-right: 10px;
+    }
+  
+    /* Estilos para os links */
+    a {
+      color: #7289da;
+      text-decoration: none;
+    }
+  
+    a:hover {
+      text-decoration: underline;
+    }
+  
+    /* Estilo para a caixa de código */
+    pre {
+      background-color: #23272a;
+      padding: 15px;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 1.1em;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      margin-top: 20px;
+      border: 2px solid #7289da;
+    }
+
+    pre code {
+      background-color: transparent;
+      padding: 0;
+      font-size: 1.1em;
+      color: #fff;
+    }
+  </style>    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.12/marked.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Ferramentas Markdown Discord</h1>
+    
+        <h2>Links Úteis:</h2>
+        <p>Confira os links abaixo para acessar diferentes ferramentas e recursos do Discord:</p>
+        <ul>
+            <li>
+                <a href="https://discord.com" target="_blank">
+                    <i class="fas fa-link"></i> Site Oficial do Discord
+                </a>
+            </li>
+            <li>
+                <a href="https://discord.com/developers" target="_blank">
+                    <i class="fas fa-code"></i> Discord Developer Portal
+                </a>
+            </li>
+            <li>
+                <a href="https://top.gg" target="_blank">
+                    <i class="fas fa-star"></i> Top.gg - Bots Discord
+                </a>
+            </li>
+            <li>
+                <a href="https://discord.js.org" target="_blank">
+                    <i class="fas fa-book"></i> Documentação do Discord.js
+                </a>
+            </li>
+            <li>
+                <a href="https://discord.com/partners" target="_blank">
+                    <i class="fas fa-handshake"></i> Programa de Parcerias Discord
+                </a>
+            </li>
+        </ul>
+    
+        <h2>Recursos e Ferramentas:</h2>
+        <p>Explore algumas das ferramentas mais úteis para desenvolvedores e administradores de servidores Discord:</p>
+        <ul>
+            <li>
+                <a href="https://discord.com/rules" target="_blank">
+                    <i class="fas fa-gavel"></i> Regras e Termos de Serviço
+                </a>
+            </li>
+            <li>
+                <a href="https://discord.com/support" target="_blank">
+                    <i class="fas fa-headset"></i> Suporte Discord
+                </a>
+            </li>
+        </ul>
+    </div>        
+
+    <h2>Exemplo de Markdown:</h2>
+    <div class="markdown">
+        <h2>Exemplo de Markdown Avançado:</h2>
+      
+        # Título com Markdown  
+      
+        **Texto em negrito**  
+        *Texto em itálico*  
+        __Texto sublinhado__  
+      
+        ## Subtítulo  
+      
+        [Link para o Discord](https://discord.com)  
+      
+        ### Listas:
+      
+        - Lista não ordenada:
+          - Item 1
+          - Item 2
+          - Item 3
+        
+        1. Lista ordenada:
+          1. Primeira etapa
+          2. Segunda etapa
+          3. Última etapa
+        
+        ### Lista de Tarefas:
+      
+        - [x] Tarefa concluída
+        - [ ] Tarefa pendente
+        - [ ] Outra tarefa
+
+        ### Listas Aninhadas
+
+        - Item 1
+          - Subitem 1
+          - Subitem 2
+        - Item 2
+          - Subitem 1
+        - Item 3
+      
+        # Cabeçalho
+
+        # Cabeçalhos de Nível 1
+        ## Cabeçalho de Nível 2
+        ### Cabeçalho de Nível 3
+
+        ### Citação:
+        > Citação de um trecho  
+        "Aqui vai um exemplo de uma citação."
+      
+        ### Imagem e Link:
+      
+        ![Imagem exemplo](https://via.placeholder.com/150)  
+        [Veja mais imagens no Discord](https://discord.com)
+      
+        ### Código em linha:
+      
+        `Código em linha: exemplo de código`
+      
+        ### Bloco de Código:
+      
+        ```javascript
+        // Exemplo de código em bloco
+        function saudacao(nome) {
+            console.log(`Olá, ${nome}!`);
+        }
+        saudacao("Mundo");
+        ```
+
+        ```python
+        # Exemplo de código em Python
+        def saudacao(nome):
+            print(f"Olá, {nome}!")
+        saudacao("Mundo")
+        ```
+        
+        ```json
+        {
+            "nome": "Sniper Mask Dev",  
+        }
+        ```
+    </div>
+  </div>
+
+  <footer style="background-color: #2f3136; color: #fff; text-align: center; padding: 20px; margin-top: 30px; border-top: 2px solid #7289da;">
+    <p>&copy; 2024 Ferramentas Discord. Todos os direitos reservados.</p>
+    <p><a href="https://discord.gg/JHakhkXahT" target="_blank" style="color: #7289da;">Discord</a></p>
+</footer>
+
+</body>
+</html>
